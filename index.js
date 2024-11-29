@@ -32,7 +32,7 @@ yargs.command({
       describe: "Note id",
       demandOption: true,
       type: "string",
-    }
+    },
   },
   async handler({ id }) {
     removeNote(id);
